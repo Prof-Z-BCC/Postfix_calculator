@@ -30,7 +30,9 @@ int main() {
                         }
                         case '-': {
                             stk.display();
-                            int diff = stk.pop() - stk.pop();
+                            int val1 = stk.pop();
+                            int val2 = stk.pop();
+                            int diff = val2 - val1;
                             stk.push(diff);
                             break;
                         }
